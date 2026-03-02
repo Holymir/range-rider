@@ -1,0 +1,22 @@
+[
+  {
+    "id": "orca-sol-usdc",
+    "name": "ORCA SOL/USDC Whirlpool",
+    "dex": "orca",
+    "tokenA": "SOL",
+    "tokenB": "USDC",
+    "feeRateBps": 30,
+    "targetRangePct": 0.12,
+    "projectedApr": 22
+  },
+  {
+    "id": "raydium-sol-usdt",
+    "name": "Raydium SOL/USDT CLMM",
+    "dex": "raydium",
+    "tokenA": "SOL",
+    "tokenB": "USDT",
+    "feeRateBps": 25,
+    "targetRangePct": 0.1,
+    "projectedApr": 18
+  }
+]
