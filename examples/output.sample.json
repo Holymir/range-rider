@@ -1,0 +1,74 @@
+{
+  "pool": {
+    "id": "orca-sol-usdc",
+    "dex": "orca",
+    "liquidityUsd": 1000000,
+    "price": 1.73,
+    "tokenABalance": 500000,
+    "tokenBBalance": 289017.34,
+    "volume24hUsd": 100000,
+    "timestamp": "2026-01-10T12:00:00.000Z"
+  },
+  "position": {
+    "poolId": "orca-sol-usdc",
+    "owner": "7Y2o8wLT4YTRvkVYQwF62v5vVGfD8pdnLhys8EPq9R1t",
+    "inRange": false,
+    "liquidityUsd": 20000,
+    "tokenAAmount": 8000,
+    "tokenBAmount": 6500,
+    "feesEarnedUsd": 120,
+    "entryPrice": 1.59,
+    "currentPrice": 1.73,
+    "last24hPrices": [
+      1.66,
+      1.67,
+      1.68,
+      1.69,
+      1.70,
+      1.71,
+      1.72,
+      1.73,
+      1.74,
+      1.75,
+      1.76,
+      1.77,
+      1.78,
+      1.79,
+      1.80,
+      1.79,
+      1.78,
+      1.77,
+      1.76,
+      1.75,
+      1.74,
+      1.73,
+      1.72,
+      1.71
+    ],
+    "timestamp": "2026-01-10T12:00:00.000Z"
+  },
+  "yield": {
+    "feesEarnedUsd": 120,
+    "impermanentLossUsd": 18.5,
+    "impermanentLossPct": 0.0925,
+    "netYieldUsd": 101.5,
+    "netYieldPct": 0.5075
+  },
+  "volatility": {
+    "annualizedVolatilityPct": 83.2,
+    "dailyReturnsStdDev": 0.0435,
+    "spikeDetected": true
+  },
+  "alerts": [
+    {
+      "code": "OUT_OF_RANGE",
+      "severity": "high",
+      "message": "Position in pool orca-sol-usdc is out of active range."
+    },
+    {
+      "code": "VOLATILITY_SPIKE",
+      "severity": "medium",
+      "message": "Annualized volatility spiked to 83.20%."
+    }
+  ]
+}
